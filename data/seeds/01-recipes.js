@@ -4,11 +4,7 @@ const recipes = [
     { recipe_name: 'Cheesy Chicken Quesadillas' },
     { recipe_name: 'Red Chili Chicken Enchiladas' },
     { recipe_name: 'Salsa Verde Enchiladas' },
-    { recipe_name: 'One-Pan BBQ Pulled Chicken Tacos' },
-    { recipe_name: 'Mozzarella & Mushroom Hoagies' },
-    { recipe_name: 'Italian Chicken & Pepper Sandos' },
-    { recipe_name: 'Coconut Curry Chicken' },
-    { recipe_name: 'Thai Ginger Curry' },
+    { recipe_name: 'One-Pan BBQ Pulled Chicken Tacos' }
 ]
 
 exports.recipes = recipes

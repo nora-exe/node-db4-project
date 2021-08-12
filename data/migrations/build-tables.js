@@ -7,7 +7,7 @@ exports.up = async function (knex) {
         .createTable('steps', (table) => {
             table.increments('steps_id')
             table.integer('steps_number').notNullable()
-            table.string('steps_instructions', 256).notNullable()
+            table.string('steps_instructions', 700).notNullable()
             // Foreign Key relationship
             table.integer('recipes_id')
                 .unsigned()
